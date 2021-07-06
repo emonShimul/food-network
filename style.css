@@ -3,12 +3,16 @@ body{
     margin: 0;
 }
 
-#container{
-    margin-top: 50px;
-}
+/* #container{
+    margin-top: 20px;
+} */
 
 .orange{
     color: #FB9149;
+}
+
+.skyblue{
+    color: #5bc1ea;
 }
 
 .half-width{
@@ -19,6 +23,72 @@ body{
 .flexible-container{
     display: flex;
     margin-bottom: 100px;
+}
+
+/* top-header section css */
+
+#top-header{
+    display: flex;
+    background-color: #000;
+    padding-left: 8%;
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo h1{
+    font-size: 42px;
+    color: #fff;
+}
+
+.menubar{
+    width: 40%;
+}
+
+.menubar ul{
+    color: #fff;
+    list-style: none;
+}
+
+.menubar ul li{
+    float: left;
+    /* background-color: #5bc1ea; */
+    background-color: #FB9149;
+    border-radius: 20px;
+    margin: 28px 5px;
+}
+
+.menubar ul li:hover{
+    background-color: #5bc1ea;
+}
+
+.menubar ul li a{
+    display: block;
+    padding: 8px 30px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.phn-no{
+    width: 30%;
+}
+
+.phn-no p{
+    text-align: right;
+    color: #fff;
+    font-size: 18px;
+    padding-right: 160px;
+    padding-top: 32px;
+    font-weight: 800;
+}
+
+/* header section css */
+
+#header{
+    padding-top: 50px;
 }
 
 .left-header h1{
@@ -121,6 +191,49 @@ body{
 
 .recipes-item p{
     font-size: 18px;
+}
+
+/* any-queries section css */
+
+#any-queries{
+    background-color: #e6e6e6;
+    padding: 50px 0 100px 0;
+}
+
+.form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form h2{
+    font-size: 42px;
+    color: #707070;
+    text-align: center;
+}
+
+.form p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.form input, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.form-submit-btn{
+    width: 30%;
+    margin: 0 auto;
+  }
+
+.form-submit-btn input {
+    background-color: #5bc1ea;
+    cursor: pointer;
 }
 
 /* footer section css */
